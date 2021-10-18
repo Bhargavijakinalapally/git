@@ -21,7 +21,7 @@ Removes all merged remote branches except specified branches: master, feature1
     [CmdletBinding()]
     param(
         [Parameter(Mandatory = $false)]
-        [string[]]$Branches = @("master", "develop", "HEAD")
+        [string[]]$Branches = @("main", "develop", "HEAD")
     )
 
     process {
