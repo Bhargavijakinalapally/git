@@ -34,3 +34,4 @@ Removes all merged remote branches except specified branches: master, feature1
         }
     }
 }
+Remove-MergedRemoteBranches()
