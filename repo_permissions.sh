@@ -1,4 +1,4 @@
-YourUserName="joshua781467"
+UserName="joshua781467"
 PersonalAccessToken="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"
 team_name="Devops"
 org_name="Test-Github007123"
@@ -12,4 +12,4 @@ team_id="$(
       jq 'map(select(.name=="'$team_name'")) | .[].id'
 )"
 
-curl -H "Accept: application/vnd.github.v3+json" -u $UserName:Yamini0071@ -X PUT -d '{"permission":"admin"}' https://api.github.com/orgs/Test-Github007123/teams/team_id/repos/Test-Github007123/ABC123 \
+curl -H "Accept: application/vnd.github.v3+json" -u $UserName:Yamini0071@ -X PUT -d '{"permission":"admin"}' https://api.github.com/orgs/Test-Github007123/teams/team_id/repos/$UserName/ABC123 \
