@@ -4,5 +4,5 @@ curl \
   -X PUT \
   -H "Accept: application/vnd.github.v3+json" \
   -H "Authorization: token $PersonalAccessToken"
-  https://api.github.com/orgs/Test-Github007123/teams/devops/repos/joshua781467/ABC123 \
+  https://api.github.com/orgs/Test-Github007123/teams/devops/repositories/Test-Github007123/ABC123 \
   -d '{"permission":"admin"}'
