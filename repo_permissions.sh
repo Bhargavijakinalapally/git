@@ -12,4 +12,4 @@ team_id="$(
       jq 'map(select(.name=="'$team_name'")) | .[].id'
 )"
 
-curl -H "Accept: application/vnd.github.v3+json" -u $UserName:$PersonalAccessToken -X PUT -d '{"permission":"admin"}' https://api.github.com/teams/$team_id/repos/$org_name/$repo
+curl -H "Accept: application/vnd.github.v3+json" -u $UserName:Yamini0071@ -X PUT -d '{"permission":"admin"}' https://api.github.com/teams/$team_id/repos/$org_name/$repo
