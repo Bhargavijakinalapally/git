@@ -10,5 +10,5 @@
   -H "Authorization: token $pat" \
   -X PUT \
   -H "Accept: application/vnd.github.v3+json" \
-   https://api.github.com/orgs/$org_name/teams/$team_name/repos/$owner/$repo \
+   "https://api.github.com/orgs/$org_name/teams/$team_name/repos/$owner/$repo" \
   -d '{"permission":"'$perm'"}'
