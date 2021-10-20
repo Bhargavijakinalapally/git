@@ -13,5 +13,5 @@ curl                                                                            
   -H "Authorization: token $PAT "                                                 \
   -X PUT                                                                          \
   -H "Accept: application/vnd.github.v3+json"                                     \
-  "https://api.github.com/orgs/$orgName/teams/$team/repos/$owner/$repo"           \
+  "https://api.github.com/orgs/$orgName/teams/$team/repos/$owner/$repo"          |\
   -d "$json"
