@@ -3,7 +3,7 @@
   team_name=developers
   owner=Test-Github007123
   repo=ABC123
-  perm="push"
+  perm="admin"
 
   
   curl \
