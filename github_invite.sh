@@ -2,7 +2,7 @@
 email="joelnathanial777@gmail.com"
 org_name=Test-Github007123
 team_name=Devops
-GITHUB_OAUTH_TOKEN="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"
+GITHUB_OAUTH_TOKEN="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"
 
 
 team_id="$(
