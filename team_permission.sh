@@ -12,4 +12,4 @@ curl \
   -X PUT \
   -H "Accept: application/vnd.github.v3+json" \
    https://api.github.com/orgs/$orgName/teams/$team/repos/$owner/$repo \
-  -d '{"permission":"$permission"}'
+  -d '{"permission":"'$permission'"}'
