@@ -1,7 +1,7 @@
-orgName="Test-Github007123"
-team="devops"
-owner="Test-Github007123"
-repo="ABC123"
+orgName=Test-Github007123
+team=devops
+owner=Test-Github007123
+repo=ABC123
 PAT="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"
 permission="admin"
 
