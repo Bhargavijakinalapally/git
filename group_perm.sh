@@ -1,3 +1,5 @@
+  #!/bin/env sh
+
   pat="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"
   org_name=Test-Github007123
   team_name=developers
