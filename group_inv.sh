@@ -1,9 +1,11 @@
+
 declare -a email=("joelnathanial777@gmail.com" "joshuabarnesedward@gmail.com")
 org_name=Test-Github007123
 team_name=Devops
 GITHUB_OAUTH_TOKEN="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"
-for i in "${email[@]}" \
-do \
+
+for i in "${email[@]}"
+do
 team_id="$(
     curl -s                                                               \
          -H "Authorization: token $GITHUB_OAUTH_TOKEN"                    \
@@ -25,4 +27,3 @@ curl -s                                                                   \
      "https://api.github.com/orgs/$org_name/invitations"
 
 done
-exit \
