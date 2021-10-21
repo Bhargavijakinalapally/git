@@ -4,7 +4,7 @@ team_name=Devops
 GITHUB_OAUTH_TOKEN="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"
 for i in "${email[@]}"
 
-do
+do                                                                        \
 team_id="$(
     curl -s                                                               \
          -H "Authorization: token $GITHUB_OAUTH_TOKEN"                    \
