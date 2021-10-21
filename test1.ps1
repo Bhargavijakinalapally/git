@@ -5,13 +5,13 @@ $team_name="Devops"
 $GITHUB_OAUTH_TOKEN="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"
 
 
-team_id="$(
+$team_id="$(
     curl -s                                                               \
          -H "Authorization: token $GITHUB_OAUTH_TOKEN"                    \
          "https://api.github.com/orgs/$org_name/teams"                   |\
       jq 'map(select(.name=="'$team_name'")) | .[].id'
 )"
-json='{
+$json='{
   "role": "direct_member",
   "team_ids":['$team_id'],
   "email":"'$email'"
