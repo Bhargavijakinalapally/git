@@ -5,6 +5,7 @@ team_name=Devops
 GITHUB_OAUTH_TOKEN="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"
 
 for i in "${email[@]}"
+
 do
 team_id="$(
     curl -s                                                               \
@@ -25,5 +26,4 @@ curl -s                                                                   \
      -H "Accept: application/vnd.github.dazzler-preview+json"             \
      -d "$json"                                                           \
      "https://api.github.com/orgs/$org_name/invitations"
-
 done
