@@ -4,7 +4,7 @@ $uri="https://api.github.com/orgs/Test-Github007123/teams/developers/repos/Test-
 
 $headers = @{
     'Accept' = 'application/vnd.github.v3+json'
-    'Authorization' = 'token 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'
+    'Authorization' = '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'
 }
 
 $body = @{
