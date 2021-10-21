@@ -25,4 +25,4 @@ curl -s                                                                   \
      "https://api.github.com/orgs/$org_name/invitations"
 
 done
-exit
+exit \
