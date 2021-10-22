@@ -1,13 +1,13 @@
 $org_name= "Test-Github007123"
 $repo="ABC123"
 $team="developers"
-
+$pat="token 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"
 $uri="https://api.github.com/orgs/$org_name/teams/$team/repos/$org_name/$repo"
 
 
 $headers = @{
     'Accept' = 'application/vnd.github.v3+json'
-    'Authorization' = 'token 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'
+    'Authorization' = $pat
 }
 
 $body = @{
