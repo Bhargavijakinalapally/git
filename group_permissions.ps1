@@ -3,6 +3,7 @@ $repo="ABC123"
 $team="developers"
 $pat="token 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"
 $uri="https://api.github.com/orgs/$org_name/teams/$team/repos/$org_name/$repo"
+$permission="triage"
 
 
 $headers = @{
@@ -11,7 +12,7 @@ $headers = @{
 }
 
 $body = @{
-'permission' = 'triage'
+'permission' = $permission
 } | ConvertTo-Json
 
 Invoke-RestMethod -Uri $uri -Method PUT -Headers $headers -Body $body
