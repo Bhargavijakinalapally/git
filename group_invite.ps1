@@ -1,4 +1,4 @@
-$strarry = @("joshuabarnesedward@gmail.com", "joewick07@gmail.com",jkmramachandran@gmail.com)
+$strarry = @("joshuabarnesedward@gmail.com", "joewick07@gmail.com","jkmramachandran@gmail.com")
 $org_name="Test-Github007123"
 $team="developers"
 $pat="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"
