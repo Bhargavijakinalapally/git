@@ -1,13 +1,13 @@
 $strarry = @("joshuabarnesedward@gmail.com", "joewick07@gmail.com","jkmramachandran@gmail.com")
 $org_name="Test-Github007123"
 $team="developers"
-$pat="token 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"
+$pat="token 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"
 foreach ($email in $strarry) {
 
 $uri="https://api.github.com/orgs/$org_name/teams/$team"
 $headers = @{
 
-    'Authorization' = 'token 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'
+    'Authorization' = 'token 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'
 }
 $team_full=Invoke-RestMethod -Uri $uri -Method Get -Headers $headers 
 
@@ -24,7 +24,7 @@ $body = @{
 $uri2="https://api.github.com/orgs/$org_name/invitations"
 
 $header2=@{
-    'Authorization' = 'token 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'
+    'Authorization' = 'token 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'
     'Accept' = 'application/vnd.github.dazzler-preview+json'
 }
 
