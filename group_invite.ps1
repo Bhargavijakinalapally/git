@@ -7,7 +7,7 @@ foreach ($email in $strarry) {
 $uri="https://api.github.com/orgs/$org_name/teams/$team"
 $headers = @{
 
-    'Authorization' = 'token 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'
+    'Authorization' = 'token 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'
 }
 $team_full=Invoke-RestMethod -Uri $uri -Method Get -Headers $headers 
 
@@ -24,7 +24,7 @@ $body = @{
 $uri2="https://api.github.com/orgs/$org_name/invitations"
 
 $header2=@{
-    'Authorization' = 'token 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'
+    'Authorization' = 'token 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'
     'Accept' = 'application/vnd.github.dazzler-preview+json'
 }
 
