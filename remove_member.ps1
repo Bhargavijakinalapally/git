@@ -24,7 +24,4 @@ if ($member_names.Contains($name)) {
 
     Invoke-RestMethod -Uri $uri2 -Method Delete -Headers $header2 
 
-
-
-
 }
