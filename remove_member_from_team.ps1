@@ -1,6 +1,6 @@
 $pat= "token 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"
 $org_name="Test-Github007123"
-$name=""
+$name="Gopalakrishnan997"
 $team="developers"
 
 $uri="https://api.github.com/orgs/$org_name/members"
