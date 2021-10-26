@@ -1,7 +1,10 @@
 $team_array = @("developers","devops")
 $org_name="Test-Github007123"
-$email="joelnathanial777@gmail.com"
+$emails=@("joelnathanial777@gmail.com","vijishankar111@gmail.com")
 $pat="token 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"
+foreach ($email in $emails) {
+    
+
 foreach ($team in $team_array) {
 
 $uri="https://api.github.com/orgs/$org_name/teams/$team"
@@ -30,4 +33,5 @@ $header2=@{
 
 Invoke-RestMethod -Uri $uri2 -Method Post -Headers $header2 -Body $body
 
+}
 }
