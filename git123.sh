@@ -17,6 +17,7 @@ usage () {
   echo 
   echo "All parameters mandatory"
   echo "text"
+  echo "local text"
   exit
 }
 
