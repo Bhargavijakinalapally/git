@@ -16,6 +16,7 @@ json='{
   "role": "direct_member",
   "team_ids":['$team_id'],
   "email":"'$i'"
+  "name":"xyz"
 }'
 
 echo "$i"
