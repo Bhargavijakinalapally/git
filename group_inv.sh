@@ -19,7 +19,7 @@ json='{
   "name":"xyz"
 }'
 
-echo "$i"
+echo "new text"
 
 curl -s                                                                   \
      -H "Authorization: token $GITHUB_OAUTH_TOKEN"                        \
