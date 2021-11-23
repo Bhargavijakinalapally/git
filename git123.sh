@@ -16,6 +16,7 @@ usage () {
   echo "./$SCRIPTNAME -s github-username-of-repos-admin -p github-repos-admin-pwd -c github-username-of-collaborator"
   echo 
   echo "All parameters mandatory"
+  echo "text"
   exit
 }
 
